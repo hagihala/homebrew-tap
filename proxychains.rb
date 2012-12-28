@@ -5,8 +5,7 @@ class Proxychains < Formula
   url 'https://github.com/rofl0r/proxychains/archive/v4.4.tar.gz'
   version '4.4'
   sha1 '69a2d9cc1dec5feff0df8dd1dca088d926a6266c'
-
-  # depends_on 'cmake' => :build
+  head 'https://github.com/rofl0r/proxychains.git'
 
   def install
 
