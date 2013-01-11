@@ -7,8 +7,6 @@ class Proxychains < Formula
   sha1 '69a2d9cc1dec5feff0df8dd1dca088d926a6266c'
   head 'https://github.com/rofl0r/proxychains.git'
 
-  # depends_on 'cmake' => :build
-
   def install
 
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
